@@ -1,5 +1,6 @@
 import Home from './pages/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './assets/_fix.scss'
 
 function App() {
   

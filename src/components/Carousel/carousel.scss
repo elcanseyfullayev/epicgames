@@ -1,0 +1,112 @@
+.carousel {
+    background-color: #121212;
+    padding: 30px 240px;
+    .carousel-inner {
+        cursor: pointer;
+        a {
+            display: none;
+        }
+
+
+        .carousel-item {
+            border-radius: 12px;
+
+            .carousel-caption {
+                display: flex !important;
+                flex-direction: column;
+                justify-content: start;
+                position: absolute;
+                top: 200px;
+                left: 100px;
+                width: 370px;
+                height: 100%;
+                gap: 30px;
+                img {
+                    height: 100px;
+                    width: 400px;
+                }
+
+                .mirage {
+                    height: 120px;
+                    width: 300px;
+                }
+
+                .about {
+                    
+                    text-align: start;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 13px;
+                    p {
+                        font-size: 14px;
+                    }
+
+                    h5 {
+                        font-weight: 400;
+                    }
+                }
+
+                .buy {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 350px;
+                    text-align: start;
+                    .price {
+
+                        font-weight: 500;
+                        font-size: 19px;
+
+                        s {
+                            color: gray;
+                            text-decoration: line-through;
+                        }
+                    }
+                    .buttons {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 10px;
+                        .save {
+                            display: grid;
+                            place-items: center;
+                            background-color: white;
+                            font-size: 17px;
+                            color: black;
+                            height: 50px;
+                            width: 150px;
+                            border-radius: 4px;
+                        }
+                        .wish {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 5px;
+                            font-size: 13px;
+                            height: 50px;
+                            border-radius: 4px;
+                            width: 180px;
+                            transition: 200ms;
+                            &:hover {
+                                background-color: rgba(255, 255, 255, 0.2);
+                            }
+                            i {
+                                border: 2px solid white;
+                                background-color: black;
+                                border-radius: 50%;
+                                padding: 2.5px;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            img {
+                border-radius: 12px;
+            }
+        }
+    }
+}
+

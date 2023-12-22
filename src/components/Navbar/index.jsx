@@ -12,15 +12,15 @@ function Navbar() {
                 <div className="nav-right">
                     <div className="inside-left">
                         <img src="https://media.graphassets.com/qAiDvosPSFGqJxTVuY7h" alt="" />
-                        <div>
+                        <div className='rightmenu'>
                             <p>Distribution</p>
                             <p>Support</p>
                             <p>Unreal Engine</p>
                         </div>
                     </div>
                     <div className="inside-right">
-                        <i class="fa-sharp fa-solid fa-globe"></i>
-                        <i class="fa-sharp fa-regular fa-user"></i>
+                        <i className="fa-sharp fa-solid fa-globe"></i>
+                        <i className="fa-sharp fa-regular fa-user"></i>
                         <div>Download</div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ function Navbar() {
                 <div className="menu">
                     <div class="form-group fg--search">
                         <input type="text" className='input' placeholder='Search store' />
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <button type="submit"><i className="fa fa-search"></i></button>
                     </div>
                     <div className="menu-left">
                         <div>
