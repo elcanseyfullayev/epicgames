@@ -12,9 +12,21 @@ nav {
         font-size: 32px;
         color: white;
         border-right: 2px solid rgb(71, 71, 71);
-        width: 60px;
+        width: 90px;
+        gap: 10px;
+        cursor: pointer;
         svg {
             cursor: pointer;
+            
+        }
+        &:hover i {
+            padding-top: 7px;
+            color: white;
+        }
+        i {
+            font-size: 14px;
+            color: gray;
+            transition: 200ms;
         }
     }
     
@@ -49,6 +61,7 @@ nav {
             img {
                 height: 32px;
                 width: 110px;
+                cursor: pointer;
             }
         }
         .inside-right {
@@ -124,6 +137,8 @@ header {
 }
 
 .form-group {
+    display: flex;
+    align-items: center;
     padding-right: 35px;
 }
 
@@ -150,7 +165,7 @@ header {
     display: inline-block;
     font-size: 16px;
     position: absolute;
-    top: -10px;
+    top: -4px;
     left: 0;
     padding: 18px 20px;
     z-index: 2;

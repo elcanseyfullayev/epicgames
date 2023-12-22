@@ -8,6 +8,7 @@ function Navbar() {
             <nav>
                 <div className="epic-icon">
                     <Icon icon="simple-icons:epicgames" />
+                    <i className="fa-solid fa-angle-down"></i>
                 </div>
                 <div className="nav-right">
                     <div className="inside-left">
@@ -27,7 +28,7 @@ function Navbar() {
             </nav>
             <header>
                 <div className="menu">
-                    <div class="form-group fg--search">
+                    <div className="form-group fg--search">
                         <input type="text" className='input' placeholder='Search store' />
                         <button type="submit"><i className="fa fa-search"></i></button>
                     </div>

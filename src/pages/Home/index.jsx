@@ -51,7 +51,7 @@ function Home() {
                     <div className="box">
                         <div className="image">
                             <img src="https://cdn1.epicgames.com/offer/5a2ea5980ac147c195775039195a3081/EGS_STARWARSJediSurvivorStandardEdition_RespawnEntertainment_S2_1200x1600-fd090aecb23a065b29ea101939798edd?h=480&quality=medium&resize=1&w=360" alt="" />
-                            <i class="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
                             <div className="imghover"></div>
                             
                         </div>
@@ -67,7 +67,7 @@ function Home() {
                     <div className="box">
                         <div className="image">
                             <img src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=480&quality=medium&resize=1&w=360" alt="" />
-                            <i class="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
                             <div className="imghover"></div>
                             
                         </div>
@@ -83,7 +83,7 @@ function Home() {
                     <div className="box">
                         <div className="image">
                             <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360" alt="" />
-                            <i class="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
                             <div className="imghover"></div>
                             
                         </div>
@@ -99,7 +99,7 @@ function Home() {
                     <div className="box">
                         <div className="image">
                             <img src="https://cdn1.epicgames.com/offer/0c40923dd1174a768f732a3b013dcff2/EGS_TheLastofUsPartI_NaughtyDogLLC_S2_1200x1600-41d1b88814bea2ee8cb7986ec24713e0?h=480&quality=medium&resize=1&w=360" alt="" />
-                            <i class="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
                             <div className="imghover"></div>
                             
                         </div>
@@ -115,7 +115,7 @@ function Home() {
                     <div className="box">
                         <div className="image">
                             <img src="https://cdn1.epicgames.com/offer/fda0f2b4047f46ffb4e94d5595c1468e/EGS_MortalKombat1_NetherRealmStudios_S4_1200x1600-076e67292bb57f11ebb4465b7e74a65e?h=480&quality=medium&resize=1&w=360" alt="" />
-                            <i class="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
                             <div className="imghover"></div>
                             
                         </div>
