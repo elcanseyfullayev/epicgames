@@ -5,6 +5,32 @@ import Carousel from '../../components/Carousel'
 
 function Home() {
 
+    let countDownDate = new Date("Dec 26, 2023 20:00:00").getTime();
+
+    let x = setInterval(function () {
+
+        let now = new Date().getTime();
+
+        let distance = countDownDate - now;
+
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        days = days.toString().padStart(2, '0');
+        hours = hours.toString().padStart(2, '0');
+        minutes = minutes.toString().padStart(2, '0');
+        seconds = seconds.toString().padStart(2, '0');
+
+        document.getElementById("timer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
     return (
         <>
             <Navbar></Navbar>
@@ -243,6 +269,43 @@ function Home() {
                                 -67%
                             </div>
                             <p><s>$15.99</s> $5.27</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id='free'>
+                <div className="box">
+                    <div className="head">
+                        <p><i class="fa-solid fa-gift"></i> Free Games</p>
+                        <div className="button">VIEW MORE</div>
+                    </div>
+                    <div className="boxes">
+                        <div className="game">
+                            <div className="image">
+                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-6_1920x1080-5bb4c52ce1a4cb775dca78961c76e644?h=480&quality=medium&resize=1&w=854" alt="" />
+                                <div className="free">
+                                    FREE NOW
+                                </div>
+                                <div className="bck">
+
+                                </div>
+                            </div>
+                            <div className="about">
+                                <p>Ghostwire: Tokyo</p>
+                                <span>Free Now - Dec 25 at 08:00 PM</span>
+                            </div>
+                        </div>
+                        <div className="game">
+                            <div className="image">
+                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-7-teaser_1920x1080-e685b285c9adef69fc763e9aae81b33c?h=480&quality=medium&resize=1&w=854" alt="" />
+                                <div className="mystery">
+                                    MYSTERY GAME
+                                </div>
+                                <div className="bck">
+
+                                </div>
+                            </div>
+                            <p className='timer'>Unlocking in <div id="timer"></div></p>
                         </div>
                     </div>
                 </div>
