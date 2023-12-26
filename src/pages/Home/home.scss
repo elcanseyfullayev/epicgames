@@ -410,6 +410,7 @@
         background-color: #FFFFFF1A;
         padding: 40px 40px;
         height: 61.5vh;
+        border-radius: 2px;
         .head {
             font-size: 21px;
             display: flex;
@@ -461,7 +462,7 @@
                         background-color: #0074E4;
                         position: absolute;
                         bottom: -1px;
-                        width: 664px;
+                        width: 663px;
                         border-radius: 0px 0px 5px 5px;
                         height: 30px;
                         display: grid;
@@ -480,7 +481,7 @@
                         font-size: 15px;
                     }
                     .bck {
-                        background-color: rgba(255, 255, 255, 0.3);
+                        background-color: rgba(255, 255, 255, 0.1);
                         opacity: 0;
                         position: absolute;
                         top: 0;
@@ -508,3 +509,104 @@
         }
     }
 }
+
+#fortnite {
+    padding: 0px 240px;
+    background-color: #121212;
+    min-height: 45vh;
+    color: white;
+    h5 {
+
+    }
+    .cont {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding-top: 20px;
+        justify-content: space-between;
+        .box {
+            cursor: pointer;
+            .image {
+                position: relative;
+                img {
+                    border-radius: 4px;
+                    height: 262px;
+                    width: 465px;
+                }
+                i {
+                    position: absolute;
+                    border: 2px solid white;
+                    background-color: black;
+                    border-radius: 50%;
+                    padding: 3.5px;
+                    font-size: 12px;
+                    top: 10px;
+                    right: 10px;
+                    opacity: 0;
+                    transition: 200ms;
+                    z-index: 3;
+
+                    &:hover .addwish {
+                        display: flex;
+                    }
+                }
+
+
+
+                .addwish {
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                    cursor: default;
+                    position: absolute;
+                    background-color: #313131;
+                    border-radius: 4px;
+                    padding: 13px;
+                    top: -67px;
+                    right: -60px;
+                    display: none;
+                    font-family: 'Inter', sans-serif;
+                    width: 150px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .imghover {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 262px;
+                    width: 465px;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    opacity: 0;
+                    border-radius: 5px;
+                    transition: 200ms;
+                }
+
+                &:hover .imghover {
+                    opacity: 1;
+                }
+
+                &:hover i {
+                    opacity: 1;
+                }
+            }
+            .about {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                padding-top: 14px;
+                span {
+                    font-size: 12px;
+                    color: #F5F5F599;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+

@@ -282,7 +282,7 @@ function Home() {
                     <div className="boxes">
                         <div className="game">
                             <div className="image">
-                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-6_1920x1080-5bb4c52ce1a4cb775dca78961c76e644?h=480&quality=medium&resize=1&w=854" alt="" />
+                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-7_1920x1080-27d16f910b6fd80793f52133204601bb?h=480&quality=medium&resize=1&w=854" alt="" />
                                 <div className="free">
                                     FREE NOW
                                 </div>
@@ -292,12 +292,12 @@ function Home() {
                             </div>
                             <div className="about">
                                 <p>Ghostwire: Tokyo</p>
-                                <span>Free Now - Dec 25 at 08:00 PM</span>
+                                <span>Free Now - Dec 26 at 08:00 PM</span>
                             </div>
                         </div>
                         <div className="game">
                             <div className="image">
-                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-7-teaser_1920x1080-e685b285c9adef69fc763e9aae81b33c?h=480&quality=medium&resize=1&w=854" alt="" />
+                                <img src="https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Free-Game-8-teaser_1920x1080-c31f1e5edde1dd7bbfac692800a81d33?h=480&quality=medium&resize=1&w=854" alt="" />
                                 <div className="mystery">
                                     MYSTERY GAME
                                 </div>
@@ -306,6 +306,47 @@ function Home() {
                                 </div>
                             </div>
                             <p className='timer'>Unlocking in <div id="timer"></div></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id='fortnite'>
+                <h5>Fortnite Experiences</h5>
+                <div className="cont">
+                    <div className="box">
+                        <div className="image">
+                            <img src="https://cdn1.epicgames.com/offer/fn/FNJN_01_EGS_Launcher_Blade_2560x1440_2560x1440-9b2da247e66cc11c447d59784923efbd?h=480&quality=medium&resize=1&w=854" alt="" />
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <div className="imghover"></div>
+                        </div>
+                        <div className="about">
+                            <span>EXPERIENCE</span>
+                            <p>LEGO® Fortnite®</p>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <div className="image">
+                            <img src="https://cdn1.epicgames.com/offer/fn/28RR_Launch_KeyArt_EGS_Blade_2560x1440_2560x1440-a135b6067cc5b54497e8bdf4fee721de?h=480&quality=medium&resize=1&w=854" alt="" />
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <div className="imghover"></div>
+                        </div>
+                        <div className="about">
+                            <span>EXPERIENCE</span>
+                            <p>Rocket Racing</p>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <div className="image">
+                            <img src="https://cdn1.epicgames.com/offer/fn/FNSP_01_EGS_Launcher_Blade_2560x1440_2560x1440-966445d9d0e9b389b765a8d3da6badb6?h=480&quality=medium&resize=1&w=854" alt="" />
+                            <i className="fa-solid fa-plus"><div className="addwish">Add To Wishlist</div></i>
+                            <div className="imghover"></div>
+                        </div>
+                        <div className="about">
+                            <span>EXPERIENCE</span>
+                            <p>Fortnite Festival</p>
+                            <p>Free</p>
                         </div>
                     </div>
                 </div>
